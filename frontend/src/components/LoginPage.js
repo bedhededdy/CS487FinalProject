@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Grid, Button, Typography, TextField } from "@material-ui/core";
 //import { BrowserRouter as Router, Routes, Route, useNavigate, Link, Navigate } from 'react-router-dom';
 
-export default function LoginPage(props) {
+export default function LoginPage() {
     /* The login page will either take a username and password which we can use
      * to get the user's steamID (via a Steam API call we will make on the backend)
      * or the user can just enter their steamID directly */
